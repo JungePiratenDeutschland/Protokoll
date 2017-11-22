@@ -1,126 +1,119 @@
-\newPerson{UsN}{ % Vorname 1. Buchstabe, Vorname 2. Buchstabe, Nachname 1. Buchstabe
-    Name        = {User Name},
-    Amt            = {...},
-    WikiName     = {...}
-}
 
 \begin{Protokoll}{
-        Sitzungsleitung                    = {DoM},
-        Protokollfuehrer                = {MiL},
-        Sitzungszeit/Datum                = {22.10.2016},
-        Sitzungszeit/BeginnZeit            = {18:30},
-        Sitzungszeit/EndeZeit            = {18:30},
-        Ort                                = {Mumble},
-        Aufzeichnung/URL                = {},
-        Aufzeichnung/Verantwortlicher     = {MiL},
-        Status                            = {false},
-    }
-    
-    \begin{Anwesenheitsliste}
-        \anwesenheit{DoM}{0}
-        \anwesenheit{BeW}{0}
-        \anwesenheit{MiH}{0}
-        \anwesenheit{MaW}{0}
-        \anwesenheit{MiL}{0}
-        \anwesenheit{MiK}{0}
-    \end{Anwesenheitsliste}
-    
-    \genehmigeLetztesProtokoll{false}
-    
-    
-    \TOP{Tätigkeitsberichte der Vorstandsmitglieder}
-        \begin{description}
-            \item[\getPersonAsWikiLink{BeW}:] \     \begin{itemize}
-        \item 
-\end{itemize}
-            \item[\getPersonAsWikiLink{DoM}:]  \     \begin{itemize}
-        \item 
-\end{itemize}
-            \item[\getPersonAsWikiLink{MiH}:]  \     \begin{itemize}
-        \item 
-   \end{itemize}
-            \item[\getPersonAsWikiLink{MaW}:]  \     \begin{itemize}
-        \item 
-\end{itemize}
-            \item[\getPersonAsWikiLink{MiL}:]  \     \begin{itemize}
-            \item
-   \end{itemize}
-            \item[\getPersonAsWikiLink{MiK}:]  \     \begin{itemize}
-        \item 
-\end{itemize}
-
-        \end{description}
-    
-    \TOP{Kurzbericht Schatzmeister}
-        \begin{center}
-            \textbf{Haben:} \\
-            \begin{tabular}{|l||r|r|}
-                \hline
-                \textbf{Girokonto:}            & \euro         & (   \euro)     \\
-                \textbf{Tagesgeld:}            &     \euro        & (   \euro)         \\ 
-                \textbf{Bar:}                &     \euro     & (  \euro)         \\
-                \hline
-                \textbf{Summe:}                &     \euro     & (\euro)        \\
-                \hline \hline
-            \end{tabular} \\
-            \vspace{.5em}
-            \textbf{Soll:} \\
-            \begin{tabular}{|l||r|r|}
-                \hline
-                \textbf{Reisekosten Q1/2016 (offenes Budget):}            
-                &    \euro         & (   \euro)     \\
-                \textbf{Schatzmeister (offenes Budget):}
-                &       \euro            & ( \euro)         \\ 
-                \textbf{Ape (bis Jahresende):}    
-                &    \euro             & ( \euro)         \\
-                \hline
-                \textbf{Summe:}                &     \euro         & ( \euro)        \\
-                \hline \hline
-                \textbf{Kredit Ape}            &      \euro        & ( \euro) \\
-                \hline
-            \end{tabular}
-        \end{center}
-    
-    \TOP{Kurzbericht Bezirkssekretär}
-        \begin{center}
-            \begin{tabular}{|l||r|}
-                \hline
-                \textbf{Mitglieder gesamt:}             &   \\
-                \textbf{Unzustellbare Mitglieder:}      &  \\
-                \textbf{Mitglieder stimmberechtigt:}    &    \\ 
-                \textbf{Mitglieder eingetreten:}        &    \\
-                \textbf{Mitglieder ausgetreten:}        &    \\
-                \hline
-            \end{tabular}
-        \end{center}
-    
-    \TOP{Berichte der Beauftragten}
-        \begin{description}
-            \item[IT:] 
-        \end{description}
-    
-    
-    \TOP{Berichte aus den Regionen}
-        \begin{description}
-            \item[W\"urzburg:] 
-            \item[Eisingen:] 
-        \end{description}
-    
-    
-    \TOP{Sonstiges}
-    
-    \TOP{Diskussionen und Anträge}
-       \Beschluss{
-            Umlaufbeschluss     = {false},
-            Antragsteller            = {},
-            Thema                    = {},
-            Gesamtwert                = {},
-            Antragstext                = {},
-            Begruendung                = {},
-            Verantwortlicher        = {},
-            Abstimmung                = {BeW/x, DoM/x, MiH/x, MaW/x, MiL/x, MiK/x},
-            Endergebnis                = {x}, % 1/0/_z_urückgezogen,
-            Bemerkungen            = {}
-        }
+		Sitzungsleitung                 = {}, 			% Kürzel wie in Hauptdatei definiert
+		Protokollfuehrer                = {MiL},  			% Kürzel wie in Hauptdatei definiert
+		Sitzungszeit/Datum              = {01.11.2017},   	% \
+		Sitzungszeit/BeginnZeit         = {20:20},			%  > Die Verwendung dieser Variablen 
+		Sitzungszeit/EndeZeit           = {22:42},			% /   wird im Header konfiguriert!
+		Ort                             = {Mumble},			% oder jeder andere Ort
+		Aufzeichnung/URL                = {},				% gerne auch leer lassen
+		Aufzeichnung/Verantwortlicher   = {},		  	    % Kürzel wie in Hauptdatei definiert
+		Status                          = {false},			% genehmigt oder nicht (boolean)
+	}
+	
+	\begin{Anwesenheitsliste}
+		\anwesenheit{JoH}{1}
+		\anwesenheit{LuG}{1}
+		\anwesenheit{FeW}{1}
+		\anwesenheit{ElH}{1}
+		\anwesenheit{MiL}{1}
+	\end{Anwesenheitsliste}
+	
+	\textbf{Der Vorstand ist beschlussfähig.}
+	
+	\genehmigeLetztesProtokoll{false}
+	
+	
+	\TOP{Tätigkeitsberichte der Vorstandsmitglieder}
+	\begin{description}
+		\item[\getPersonAsWebsiteLink{JoH}:] \     
+		\begin{itemize}
+			\item
+		\end{itemize}
+		\item[\getPersonAsWebsiteLink{LuG}:] \     
+		\begin{itemize}
+			\item 
+		\end{itemize}
+		\item[\getPersonAsWebsiteLink{MiL}:] \     
+		\begin{itemize}
+			\item 
+		\end{itemize}
+		\item[\getPersonAsWebsiteLink{ElH}:] \     
+		\begin{itemize}
+			\item
+		\end{itemize}
+		\item[\getPersonAsWebsiteLink{FeW}:] \     
+		\begin{itemize}
+			\item 
+		\end{itemize}
+	\end{description}
+	
+	\TOP{Berichte der Beauftragten}
+	\emph{-- Noch keine öffentlichen Beauftragungen ausgesprochen. --}
+	\TOP{Kurzbericht Bezirkssekretär}
+	\begin{center}
+		\begin{tabular}{|l||r|}
+			\hline
+			\textbf{Mitglieder gesamt:}             &   \\
+			\hline
+			\textbf{Fördermitglieder:}				&  \\                
+			\hline
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\TOP{Fragen an den Vorstand}
+	
+	\begin{description}
+		\item
+	\end{description}
+	
+	\TOP{Termine}
+	\begin{itemize}
+		\item 
+	\end{itemize}
+	
+	\TOP{Anträge an den BuVo}
+	\emph{-- Es sind keine Anträge eingegangen. --}
+	
+	\TOP{AG Programm}
+	\begin{itemize}
+		\item 
+	\end{itemize}
+	
+	\TOP{BMV \&\ BPT}
+	\begin{description}
+		\item
+	\end{description}
+	
+	\TOP{Vier-Punkte-Plan}
+	\begin{itemize}
+		\item
+	\end{itemize}
+	
+	\TOP{Sonstiges}
+	---
+	
+	\TOP{Diskussionen und Anträge}
+	\Beschluss{
+		Umlaufbeschluss     = {},
+		Antragsteller       = {},			% Kürzel wie in Hauptdatei definiert
+		Thema               = {},
+		Gesamtwert          = {},			% €-Zeichen wird automatisch ergänzt
+		Antragstext         = {},
+		Begruendung         = {},
+		Verantwortlicher    = {},			% Kürzel wie in Hauptdatei definiert
+		Abstimmung          = {JoH/x,LuG/x,FeW/x,ElH/x,MiL/x},
+		% Kürzel wie in Hauptdatei definiert;
+		% Werte: 1, 0, e(nthaltung), a(bwesend), 
+		%        x (noch nicht abgestimmt)
+		Endergebnis         = {x}, 				% Werte: 1, 0, z(urückgezogen), 
+		%        x (in Abstimmung)
+		Bemerkungen         = {}
+	}
+	
+	
+	\TOP{Nächster Termin}
+	22.11.2017, 20:00\,Uhr.
 \end{Protokoll}
 
