@@ -36,7 +36,10 @@
 	\toWebsite{\pgfkeysvalueof{/Protokoll/mitglied/#1/Weblink}}{\pgfkeysvalueof{/Protokoll/mitglied/#1/Name}\unskip}\unskip
 }
 \newcommand{\TOP}[1]{\subsection*{#1}}
-
+\newcommand{\naechsteSitzung}[2]{%
+	\TOP{Nächster Termin}%
+	Die nächste Sitzung findet am #1 um #2~Uhr statt.%
+}
 \newcounter{vorstandsnummer}
 \newcounter{sitzungsnummer}
 	\setcounter{sitzungsnummer}{1}
