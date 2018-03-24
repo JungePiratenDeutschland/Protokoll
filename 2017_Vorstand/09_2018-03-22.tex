@@ -1,0 +1,48 @@
+
+\begin{Protokoll}{
+    Sitzungsleitung                 = {MiL}, 			% Kürzel wie in Hauptdatei definiert
+    Protokollfuehrer                = {MiL},  			% Kürzel wie in Hauptdatei definiert
+    Sitzungszeit/Datum              = {22.03.2018},   	% \
+    Sitzungszeit/BeginnZeit         = {21:17},			%  > Die Verwendung dieser Variablen 
+    Sitzungszeit/EndeZeit           = {21:26},			% /   wird im Header konfiguriert!
+    Ort                             = {Mumble},			% oder jeder andere Ort
+    Aufzeichnung/URL                = {},				% gerne auch leer lassen
+    Aufzeichnung/Verantwortlicher   = {},		  	    % Kürzel wie in Hauptdatei definiert
+    Status                          = {false},			% genehmigt oder nicht (boolean)
+}
+
+
+\begin{Anwesenheitsliste}
+    \anwesenheit{JoH}{0}
+    \anwesenheit{LuG}{1}
+    \anwesenheit{FeW}{1}
+    \anwesenheit{ElH}{1}
+    \anwesenheit{MiL}{1}
+\end{Anwesenheitsliste}
+
+\TOP{Feststellung der Beschlussfähigkeit}
+    \textbf{Der Vorstand ist beschlussfähig.}
+
+\TOP{Diskussionen und Anträge}
+    \Beschluss{
+        Umlaufbeschluss     = {false},
+        Antragsteller       = {MiL},			% Kürzel wie in Hauptdatei definiert
+        Thema               = {Bundesmitgliederversammlung 2018.1},
+        Gesamtwert          = {---},			% €-Zeichen wird automatisch ergänzt
+        Antragstext         = {%
+                Der Bundesvorstand möge beschließen, die Bundesmitgliederversammlung 2018 am 21. und 22.~April~2018 in der \emph{Geschäftsstelle der Piraten Münster, Weseler Str. 19--21, 48151 Münster} durchzuführen. Hierzu soll Felix Wöstmann die Einladungen versenden.%
+        },
+        Begruendung         = {},
+        Verantwortlicher    = {FeW},			% Kürzel wie in Hauptdatei definiert
+        Abstimmung          = {JoH/a,LuG/1,FeW/1,ElH/1,MiL/1},
+        % Kürzel wie in Hauptdatei definiert;
+        % Werte: 1, 0, e(nthaltung), a(bwesend), 
+        %        x (noch nicht abgestimmt)
+        Endergebnis         = {1}, 				% Werte: 1, 0, z(urückgezogen), 
+        %        x (in Abstimmung)
+        Bemerkungen         = {Kein festes Budget beschlossen.}
+    }
+
+
+\end{Protokoll}
+
